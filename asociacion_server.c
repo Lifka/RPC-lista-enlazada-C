@@ -306,11 +306,6 @@ estado* borrarasociacion_1_svc(int id, char *clave,  struct svc_req *rqstp){
 
 			}
 
-			// add
-			// getall
-			// remove 
-			// getall ---> Error
-
 
 			if(encontrada_id == 0 && tupla_actual->siguiente != 0)
 				tupla_actual = tupla_actual->siguiente;
